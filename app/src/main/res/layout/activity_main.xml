@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_margin="15dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:layout_margin="15dp"
+            android:inputType="textEmailAddress"
+            android:id="@+id/etEmail"
+            android:hint="@string/enter_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="" />
+        <EditText
+            android:layout_margin="15dp"
+            android:inputType="textPassword"
+            android:id="@+id/etPassword"
+            android:hint="@string/enter_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints="" tools:targetApi="o" />
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_margin="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/register"
+            />
+        <TextView
+            android:id="@+id/tvSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/already_registered_login_here"
+            android:textAlignment="center"/>
+    </LinearLayout>
+</RelativeLayout>

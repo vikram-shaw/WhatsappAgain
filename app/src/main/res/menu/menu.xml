@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Profile"
+        android:id="@+id/menuProfile"
+        android:orderInCategory="100"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:title="Search Friend"
+        android:id="@+id/menuSearchFriends"
+        android:orderInCategory="200"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:title="Recived Request"
+        android:id="@+id/menuRecivedRequest"
+        android:orderInCategory="300"
+        app:showAsAction="never">
+    </item>
+    <item
+        android:title="Logout"
+        android:id="@+id/menuLogout"
+        android:orderInCategory="400"
+        app:showAsAction="never">
+    </item>
+
+</menu>
